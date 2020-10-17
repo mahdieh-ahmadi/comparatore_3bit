@@ -27,7 +27,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4405384 kilobytes
+Total memory usage is 4405372 kilobytes
 
 Writing NGD file "comparatore_3bit.ngd" ...
 Total REAL time to NGDBUILD completion:  4 sec

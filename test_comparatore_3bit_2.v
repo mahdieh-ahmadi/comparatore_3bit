@@ -67,6 +67,11 @@ module test_comparatore_3bit_2;
 		c = 3'b101;
 		#100;
 		
+		a = 3'b011;
+		b = 3'b011;
+		c = 3'b100;
+		#100;
+		
 		a = 3'b001;
 		b = 3'b100;
 		c = 3'b101;
@@ -102,10 +107,7 @@ module test_comparatore_3bit_2;
 		c = 3'b100;
 		#100;
 		
-		a = 3'b011;
-		b = 3'b011;
-		c = 3'b100;
-		#100;
+		
 		
 		
 

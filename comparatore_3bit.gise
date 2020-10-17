@@ -79,14 +79,11 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1602915441" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1602915441">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602917068" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1602917068">
+    <transform xil_pn:end_ts="1602922664" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1602922664">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="comparatore_3bit.v"/>
       <outfile xil_pn:name="test_comparatore_3bit.v"/>
       <outfile xil_pn:name="test_comparatore_3bit_2.v"/>
@@ -103,25 +100,17 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602917068" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602917068">
+    <transform xil_pn:end_ts="1602922664" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602922664">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="comparatore_3bit.v"/>
       <outfile xil_pn:name="test_comparatore_3bit.v"/>
       <outfile xil_pn:name="test_comparatore_3bit_2.v"/>
     </transform>
-    <transform xil_pn:end_ts="1602917072" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5306659941816348162" xil_pn:start_ts="1602917068">
+    <transform xil_pn:end_ts="1602922667" xil_pn:in_ck="8615753321027399685" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5306659941816348162" xil_pn:start_ts="1602922664">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
@@ -130,10 +119,9 @@
       <outfile xil_pn:name="test_comparatore_3bit_2_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1602917072" xil_pn:in_ck="8292493123968353353" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3064984213130076091" xil_pn:start_ts="1602917072">
+    <transform xil_pn:end_ts="1602922668" xil_pn:in_ck="8292493123968353353" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3064984213130076091" xil_pn:start_ts="1602922667">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
@@ -142,6 +130,7 @@
     </transform>
     <transform xil_pn:end_ts="1602913527" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1602913526">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1602913527" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4181993958944972508" xil_pn:start_ts="1602913527">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -167,7 +156,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602916804" xil_pn:in_ck="-4299474833915333550" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3700251215910092266" xil_pn:start_ts="1602916774">
+    <transform xil_pn:end_ts="1602922604" xil_pn:in_ck="-4299474833915333550" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3700251215910092266" xil_pn:start_ts="1602922595">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -188,7 +177,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602916812" xil_pn:in_ck="3344900588427869300" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2086877805607407665" xil_pn:start_ts="1602916804">
+    <transform xil_pn:end_ts="1602922611" xil_pn:in_ck="3344900588427869300" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2086877805607407665" xil_pn:start_ts="1602922604">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -197,7 +186,7 @@
       <outfile xil_pn:name="comparatore_3bit.ngd"/>
       <outfile xil_pn:name="comparatore_3bit_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1602916824" xil_pn:in_ck="3344900588427869301" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1602916812">
+    <transform xil_pn:end_ts="1602922618" xil_pn:in_ck="3344900588427869301" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1602922611">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -210,7 +199,7 @@
       <outfile xil_pn:name="comparatore_3bit_summary.xml"/>
       <outfile xil_pn:name="comparatore_3bit_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1602916839" xil_pn:in_ck="5120552003239438" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-5189723633469429705" xil_pn:start_ts="1602916824">
+    <transform xil_pn:end_ts="1602922631" xil_pn:in_ck="5120552003239438" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-5189723633469429705" xil_pn:start_ts="1602922618">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
@@ -224,7 +213,7 @@
       <outfile xil_pn:name="comparatore_3bit_pad.txt"/>
       <outfile xil_pn:name="comparatore_3bit_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1602916839" xil_pn:in_ck="3344900588427869169" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1602916833">
+    <transform xil_pn:end_ts="1602922631" xil_pn:in_ck="3344900588427869169" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1602922626">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
