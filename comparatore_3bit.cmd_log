@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.xst" -ofn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 comparatore_3bit.ngc comparatore_3bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparatore_3bit_map.ncd comparatore_3bit.ngd comparatore_3bit.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.xst" -ofn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 comparatore_3bit.ngc comparatore_3bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparatore_3bit_map.ncd comparatore_3bit.ngd comparatore_3bit.pcf 
+par -w -intstyle ise -ol high -mt off comparatore_3bit_map.ncd comparatore_3bit.ncd comparatore_3bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml comparatore_3bit.twx comparatore_3bit.ncd -o comparatore_3bit.twr comparatore_3bit.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.xst" -ofn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 comparatore_3bit.ngc comparatore_3bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparatore_3bit_map.ncd comparatore_3bit.ngd comparatore_3bit.pcf 
+par -w -intstyle ise -ol high -mt off comparatore_3bit_map.ncd comparatore_3bit.ncd comparatore_3bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml comparatore_3bit.twx comparatore_3bit.ncd -o comparatore_3bit.twr comparatore_3bit.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.xst" -ofn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 comparatore_3bit.ngc comparatore_3bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparatore_3bit_map.ncd comparatore_3bit.ngd comparatore_3bit.pcf 
+par -w -intstyle ise -ol high -mt off comparatore_3bit_map.ncd comparatore_3bit.ncd comparatore_3bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml comparatore_3bit.twx comparatore_3bit.ncd -o comparatore_3bit.twr comparatore_3bit.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.xst" -ofn "E:/university/3991/fpga/homeworks/comparatore_3bit/comparatore_3bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 comparatore_3bit.ngc comparatore_3bit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o comparatore_3bit_map.ncd comparatore_3bit.ngd comparatore_3bit.pcf 
+par -w -intstyle ise -ol high -mt off comparatore_3bit_map.ncd comparatore_3bit.ncd comparatore_3bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml comparatore_3bit.twx comparatore_3bit.ncd -o comparatore_3bit.twr comparatore_3bit.pcf 
