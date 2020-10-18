@@ -16,4 +16,4 @@ Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
 Built simulation executable E:/university/3991/fpga/homeworks/comparatore_3bit/test_comparatore_3bit_2_isim_beh.exe
 Fuse Memory Usage: 27572 KB
-Fuse CPU Usage: 468 ms
+Fuse CPU Usage: 561 ms

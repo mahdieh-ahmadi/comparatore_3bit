@@ -24,7 +24,7 @@
 
 
 
-static void Gate_51_0(char *t0)
+static void Gate_32_0(char *t0)
 {
     char t4[8];
     char *t1;
@@ -79,7 +79,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_52_1(char *t0)
+static void Gate_33_1(char *t0)
 {
     char t4[8];
     char *t1;
@@ -134,7 +134,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_53_2(char *t0)
+static void Gate_34_2(char *t0)
 {
     char t4[8];
     char *t1;
@@ -189,7 +189,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_54_3(char *t0)
+static void Gate_35_3(char *t0)
 {
     char t4[8];
     char *t1;
@@ -244,7 +244,7 @@ LAB2:    t2 = (t0 + 1208U);
 LAB1:    return;
 }
 
-static void Gate_55_4(char *t0)
+static void Gate_36_4(char *t0)
 {
     char t4[8];
     char *t1;
@@ -299,7 +299,7 @@ LAB2:    t2 = (t0 + 1208U);
 LAB1:    return;
 }
 
-static void Gate_56_5(char *t0)
+static void Gate_37_5(char *t0)
 {
     char t4[8];
     char *t1;
@@ -354,7 +354,7 @@ LAB2:    t2 = (t0 + 1208U);
 LAB1:    return;
 }
 
-static void Gate_57_6(char *t0)
+static void Gate_38_6(char *t0)
 {
     char t4[8];
     char *t1;
@@ -409,7 +409,7 @@ LAB2:    t2 = (t0 + 1368U);
 LAB1:    return;
 }
 
-static void Gate_58_7(char *t0)
+static void Gate_39_7(char *t0)
 {
     char t4[8];
     char *t1;
@@ -464,7 +464,7 @@ LAB2:    t2 = (t0 + 1368U);
 LAB1:    return;
 }
 
-static void Gate_59_8(char *t0)
+static void Gate_40_8(char *t0)
 {
     char t4[8];
     char *t1;
@@ -519,7 +519,7 @@ LAB2:    t2 = (t0 + 1368U);
 LAB1:    return;
 }
 
-static void Gate_61_9(char *t0)
+static void Gate_42_9(char *t0)
 {
     char t4[8];
     char t14[8];
@@ -600,7 +600,7 @@ LAB2:    t2 = (t0 + 1048U);
 LAB1:    return;
 }
 
-static void Gate_62_10(char *t0)
+static void Gate_43_10(char *t0)
 {
     char t6[8];
     char *t1;
@@ -661,7 +661,7 @@ LAB2:    t2 = (t0 + 3608U);
 LAB1:    return;
 }
 
-static void Gate_64_11(char *t0)
+static void Gate_45_11(char *t0)
 {
     char t4[8];
     char t14[8];
@@ -742,7 +742,7 @@ LAB2:    t2 = (t0 + 1208U);
 LAB1:    return;
 }
 
-static void Gate_65_12(char *t0)
+static void Gate_46_12(char *t0)
 {
     char t6[8];
     char *t1;
@@ -803,7 +803,7 @@ LAB2:    t2 = (t0 + 4088U);
 LAB1:    return;
 }
 
-static void Gate_67_13(char *t0)
+static void Gate_48_13(char *t0)
 {
     char t4[8];
     char t14[8];
@@ -884,7 +884,7 @@ LAB2:    t2 = (t0 + 1368U);
 LAB1:    return;
 }
 
-static void Gate_68_14(char *t0)
+static void Gate_49_14(char *t0)
 {
     char t6[8];
     char *t1;
@@ -945,7 +945,7 @@ LAB2:    t2 = (t0 + 4568U);
 LAB1:    return;
 }
 
-static void Gate_70_15(char *t0)
+static void Gate_51_15(char *t0)
 {
     char *t1;
     char *t2;
@@ -983,7 +983,7 @@ LAB2:    t2 = (t0 + 1688U);
 LAB1:    return;
 }
 
-static void Gate_71_16(char *t0)
+static void Gate_52_16(char *t0)
 {
     char *t1;
     char *t2;
@@ -1021,7 +1021,7 @@ LAB2:    t2 = (t0 + 2008U);
 LAB1:    return;
 }
 
-static void Gate_72_17(char *t0)
+static void Gate_53_17(char *t0)
 {
     char *t1;
     char *t2;
@@ -1059,7 +1059,7 @@ LAB2:    t2 = (t0 + 2328U);
 LAB1:    return;
 }
 
-static void Gate_74_18(char *t0)
+static void Gate_55_18(char *t0)
 {
     char *t1;
     char *t2;
@@ -1097,7 +1097,7 @@ LAB2:    t2 = (t0 + 2648U);
 LAB1:    return;
 }
 
-static void Gate_75_19(char *t0)
+static void Gate_56_19(char *t0)
 {
     char *t1;
     char *t2;
@@ -1135,7 +1135,7 @@ LAB2:    t2 = (t0 + 2648U);
 LAB1:    return;
 }
 
-static void Gate_76_20(char *t0)
+static void Gate_57_20(char *t0)
 {
     char *t1;
     char *t2;
@@ -1173,7 +1173,7 @@ LAB2:    t2 = (t0 + 2808U);
 LAB1:    return;
 }
 
-static void Gate_78_21(char *t0)
+static void Gate_59_21(char *t0)
 {
     char *t1;
     char *t2;
@@ -1217,7 +1217,7 @@ LAB1:    return;
 
 extern void work_m_00000000001262367088_1036299405_init()
 {
-	static char *pe[] = {(void *)Gate_51_0,(void *)Gate_52_1,(void *)Gate_53_2,(void *)Gate_54_3,(void *)Gate_55_4,(void *)Gate_56_5,(void *)Gate_57_6,(void *)Gate_58_7,(void *)Gate_59_8,(void *)Gate_61_9,(void *)Gate_62_10,(void *)Gate_64_11,(void *)Gate_65_12,(void *)Gate_67_13,(void *)Gate_68_14,(void *)Gate_70_15,(void *)Gate_71_16,(void *)Gate_72_17,(void *)Gate_74_18,(void *)Gate_75_19,(void *)Gate_76_20,(void *)Gate_78_21};
+	static char *pe[] = {(void *)Gate_32_0,(void *)Gate_33_1,(void *)Gate_34_2,(void *)Gate_35_3,(void *)Gate_36_4,(void *)Gate_37_5,(void *)Gate_38_6,(void *)Gate_39_7,(void *)Gate_40_8,(void *)Gate_42_9,(void *)Gate_43_10,(void *)Gate_45_11,(void *)Gate_46_12,(void *)Gate_48_13,(void *)Gate_49_14,(void *)Gate_51_15,(void *)Gate_52_16,(void *)Gate_53_17,(void *)Gate_55_18,(void *)Gate_56_19,(void *)Gate_57_20,(void *)Gate_59_21};
 	xsi_register_didat("work_m_00000000001262367088_1036299405", "isim/test_comparatore_3bit_2_isim_beh.exe.sim/work/m_00000000001262367088_1036299405.didat");
 	xsi_register_executes(pe);
 }

@@ -11,7 +11,7 @@ Target Device  : xc6slx4
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 17 11:46:52 2020
+Mapped Date    : Sun Oct 18 18:42:07 2020
 
 Mapping design into LUTs...
 Running directed packing...
@@ -20,8 +20,8 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 3 secs 
-Total CPU  time at the beginning of Placer: 3 secs 
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 4 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:7d) REAL time: 4 secs 
@@ -130,7 +130,7 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                1.50
 
 Peak Memory Usage:  4502 MB
-Total REAL time to MAP completion:  4 secs 
+Total REAL time to MAP completion:  5 secs 
 Total CPU time to MAP completion:   4 secs 
 
 Mapping completed.

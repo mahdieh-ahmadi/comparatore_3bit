@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-17T11:46:32</DateModified>
+  <DateModified>2020-10-18T18:49:21</DateModified>
   <ModuleName>comparatore_3bit</ModuleName>
-  <SummaryTimeStamp>2020-10-17T11:41:42</SummaryTimeStamp>
+  <SummaryTimeStamp>2020-10-18T18:42:26</SummaryTimeStamp>
   <SavedFilePath>E:/university/3991/fpga/homeworks/comparatore_3bit/iseconfig/comparatore_3bit.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/comparatore_3bit</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/comparatore_3bit\</ImplementationReportsDirectory>
   <DateInitialized>2020-10-17T09:13:41</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

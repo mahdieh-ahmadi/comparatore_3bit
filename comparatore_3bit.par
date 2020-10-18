@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-RBQDBFC::  Sat Oct 17 11:47:00 2020
+DESKTOP-RBQDBFC::  Sun Oct 18 18:42:15 2020
 
 par -w -intstyle ise -ol high -mt off comparatore_3bit_map.ncd
 comparatore_3bit.ncd comparatore_3bit.pcf 

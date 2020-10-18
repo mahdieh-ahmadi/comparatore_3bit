@@ -29,34 +29,15 @@ module comparatore_3bit(
 	wire bnot0 , bnot1 , bnot2;
 	wire cnot0 , cnot1 , cnot2;
 	
-	/*
-	nand(w1,a[2],a[1]); // a > 5 => w1 = 0
-	nand(w2,b[2],b[1]); // b > 5 => w2 = 0
-	nand(w3,c[2],c[1]); //c > 5 => w3 = 0
-
-	
-	or(w4,a[2],a[1]); // a < 2 => w4 = 0
-	or(w5,b[2],b[1]); // b < 2 => w5 = 0
-	or(w6,c[2],c[1]); // c < 2 => w6 = 0
-		
-	and(w7,w1,w4,w2,w5); // 2 < a < 5 && 2 < b < 5 => w7 = 1
-	and(w8,w1,w4,w3,w6); // 2 < a < 5 && 2 < c < 5 => w8 = 1
-	and(w9,w2,w5,w3,w6); // 2 < c < 5 && 2 < b < 5 => w9 = 1
-	
-	or(out,w7,w8,w9);*/
-	
-	
-	
-	
-	not(anot0,a[0]);
-	not(anot1,a[1]);
-	not(anot2,a[2]);
-	not(bnot0,b[0]);
-	not(bnot1,b[1]);
-	not(bnot2,b[2]);
-	not(cnot0,c[0]);
-	not(cnot1,c[1]);
-	not(cnot2,c[2]);
+	not(anot0,a[0]); // ~a[0]
+	not(anot1,a[1]); // ~a[1]
+	not(anot2,a[2]); // ~a[2]
+	not(bnot0,b[0]); // ~b[0]
+	not(bnot1,b[1]); // ~b[1]
+	not(bnot2,b[2]); // ~b[2]
+	not(cnot0,c[0]); // ~c[0]
+	not(cnot1,c[1]); // ~c[1]
+	not(cnot2,c[2]); // ~c[2]
 	
 	and(w1,a[0],a[1],anot2); // a = 3 => w1 = 1
 	and(w2,anot0,anot1,a[2]); // a = 4 => w2 = 1
